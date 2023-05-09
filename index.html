@@ -1,35 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link  href="css/index.css" rel="stylesheet"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
     <title>Portfolio</title>
-</head>
-<body>
-      <nav class="navbar navbar-expand-lg bg-body-white">
-        <div class="container">
-          <a class="navbar-brand fw-bold fs-6 text-primary" href="#">My Logo</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold text-center">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-white">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-6 text-primary" href="#">My Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    <script src="js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+      </div>
+    </nav>
+    <section id="home-section" class="vh-100">
+      <img class="position-absolute" src="assets/images/header-bg-large.svg" alt="header-background"/>
+      <div class="w-50 mx-auto h-100 d-flex flex-column justify-content-center">
+        <h1 class="text-primary fw-bold lh-base">I'm Alexandra. <br/>Glad to see you!</h1>
+        <p class="mt-2">
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hesitate to contact
+          me.
+        </p>
+        <span class="fs-6 text-secondary text-tertiary">LET'S CONNECT</span>
 
+        <div class="mt-2">
+          <ul class="d-flex p-0 gap-3">
+            <li>
+              <a><img src="assets/icons/twitter.svg" alt="twitter-icon" /></a>
+            </li>
+            <li>
+              <a><img src="assets/icons/linkedin.svg" alt="twitter-icon" /></a>
+            </li>
+            <li>
+              <a><img src="assets/icons/medium.svg" alt="twitter-icon" /></a>
+            </li>
+            <li>
+              <a><img src="assets/icons/angellist.svg" alt="twitter-icon" /></a>
+            </li>
+            <li>
+              <a><img src="assets/icons/github.svg" alt="twitter-icon" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
