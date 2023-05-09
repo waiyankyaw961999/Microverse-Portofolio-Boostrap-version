@@ -13,7 +13,7 @@ ul li {
 }
 
 .bg-primary {
-  background-color: #091E42 !important;
+  background-color: #091e42 !important;
 }
 
 .bg-secondary {
@@ -21,7 +21,7 @@ ul li {
 }
 
 .text-primary {
-  color: #091E42 !important;
+  color: #091e42 !important;
 }
 
 .text-secondary {
@@ -29,7 +29,7 @@ ul li {
 }
 
 .text-tertiary {
-  color: #7F8CFF !important;
+  color: #7f8cff !important;
 }
 
 @media only screen and (min-width: 768px) {
