@@ -1,14 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link  href="css/bootstrap.min.css" rel="stylesheet"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
     <title>Portfolio</title>
-</head>
-<body>
-    <p class="bg-secondary">Testingy</p>
-    <script src="js/bootstrap.min.js"></script>
-</body>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-6 text-primary" href="#">My Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="home-section" class="vh-100 bg-white">
+      <img
+        class="position-absolute h-100"
+        src="assets/images/header-bg-large.svg"
+        alt="header-background"
+      />
+      <div class="w-50 mx-auto h-100 d-flex flex-column justify-content-center">
+        <h1 class="text-primary fw-bold lh-base">
+          I'm Alexandra. <br />Glad to see you!
+        </h1>
+        <p class="mt-2">
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hesitate to contact
+          me.
+        </p>
+        <span class="fs-6 text-secondary text-tertiary">LET'S CONNECT</span>
+
+        <div class="mt-2">
+          <ul class="d-flex p-0 gap-3">
+            <li class="list-unstyled">
+              <a><img src="assets/icons/twitter.svg" alt="twitter-icon" /></a>
+            </li>
+            <li class="list-unstyled">
+              <a><img src="assets/icons/linkedin.svg" alt="twitter-icon" /></a>
+            </li>
+            <li class="list-unstyled">
+              <a><img src="assets/icons/medium.svg" alt="twitter-icon" /></a>
+            </li>
+            <li class="list-unstyled">
+              <a><img src="assets/icons/angellist.svg" alt="twitter-icon" /></a>
+            </li>
+            <li class="list-unstyled">
+              <a><img src="assets/icons/github.svg" alt="twitter-icon" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="info-section" class="mt-lg-9 bg-white w-75 mx-auto p-4 h-auto">
+      <div class="d-flex gap-4 flex-wrap flex-xxl-nowrap">
+        <img src="/assets/images/portfolio_1.png" alt="portfolio" />
+        <div class="d-flex flex-column p-4">
+          <h3 class="fw-bold">Tonic</h3>
+          <div class="list-group list-group-horizontal gap-4">
+            <p class="fw-semibold text-secondary-emphasis">CANOPY</p>
+            <ul class="gap-4 list-group list-group-horizontal">
+              <li class="list tags">Back End Dev</li>
+              <li class="list tags">2015</li>
+            </ul>
+          </div>
+          <p class="project-desc">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <div class="list-group list-group-horizontal gap-2 mt-3">
+            <span class="badge badge-text bg-secondary">html</span>
+            <span class="badge badge-text bg-secondary">css</span>
+            <span class="badge badge-text bg-secondary">javaScript</span>
+          </div>
+          <button class="btn btn-info w-25 mt-4">See Project</button>
+        </div>
+      </div>
+    </section>
+    <section id="info-section" class="mt-lg-9 bg-white w-75 mx-auto p-4">
+      <div class="d-flex gap-4">
+        <div class="d-flex flex-column p-4">
+          <h3 class="fw-bold">Multi-Post Stories</h3>
+          <div class="list-group list-group-horizontal gap-4">
+            <p class="fw-semibold text-secondary-emphasis">Facebook</p>
+            <ul class="gap-4 list-group list-group-horizontal">
+              <li class="list tags">Full Stack Dev</li>
+              <li class="list tags">2015</li>
+            </ul>
+          </div>
+          <p class="project-desc">
+            Experimental content creation feature that allows users to add to an
+            existing story over the course of a day without spamming their
+            friends.
+          </p>
+          <div class="list-group list-group-horizontal gap-2 mt-3">
+            <span class="badge badge-text bg-secondary">html</span>
+            <span class="badge badge-text bg-secondary">Ruby on rails</span>
+            <span class="badge badge-text bg-secondary">css</span>
+            <span class="badge badge-text bg-secondary">javaScript</span>
+          </div>
+          <button class="btn btn-info w-25 mt-4">See Project</button>
+        </div>
+        <img src="/assets/images/portfolio_2.png" alt="portfolio" />
+      </div>
+    </section>
+    <section id="info-section" class="mt-lg-9 bg-white w-75 mx-auto p-4">
+      <div class="d-flex gap-4">
+        <img src="/assets/images/portfolio_3.png" alt="portfolio" />
+        <div class="d-flex flex-column p-4">
+          <h3 class="fw-bold">Facebook 360</h3>
+          <div class="list-group list-group-horizontal gap-4">
+            <p class="fw-semibold text-secondary-emphasis">Facebook</p>
+            <ul class="gap-4 list-group list-group-horizontal">
+              <li class="list tags">Full Stack Dev</li>
+              <li class="list tags">2015</li>
+            </ul>
+          </div>
+          <p class="project-desc">
+            Exploring the future of media in Facebook's first Virtual Reality
+            app; a place to discover and enjoy 360 photos and videos on Gear VR.
+          </p>
+          <div class="list-group list-group-horizontal gap-2 mt-3">
+            <span class="badge badge-text bg-secondary">html</span>
+            <span class="badge badge-text bg-secondary">Ruby on rails</span>
+            <span class="badge badge-text bg-secondary">css</span>
+            <span class="badge badge-text bg-secondary">javaScript</span>
+          </div>
+          <button class="btn btn-info w-25 mt-4">See Project</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="info-section" class="mt-lg-9 bg-white w-75 mx-auto p-4">
+      <div class="d-flex gap-4">
+        <div class="d-flex flex-column p-4">
+          <h3 class="fw-bold">Uber Navigation</h3>
+          <div class="list-group list-group-horizontal gap-4">
+            <p class="fw-semibold text-secondary-emphasis">Uber</p>
+            <ul class="gap-4 list-group list-group-horizontal">
+              <li class="list tags">Lead Developer</li>
+              <li class="list tags">2018</li>
+            </ul>
+          </div>
+          <p class="project-desc">
+            A smart assistant to make driving more safe, efficient, and fun by
+            unlocking your most expensive computer: your car.
+          </p>
+          <div class="list-group list-group-horizontal gap-2 mt-3">
+            <span class="badge badge-text bg-secondary">html</span>
+            <span class="badge badge-text bg-secondary">Ruby on rails</span>
+            <span class="badge badge-text bg-secondary">css</span>
+            <span class="badge badge-text bg-secondary">javaScript</span>
+          </div>
+          <button class="btn btn-info w-25 mt-4">See Project</button>
+        </div>
+        <img src="/assets/images/portfolio_4.png" alt="portfolio" />
+      </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
