@@ -7,9 +7,8 @@ html {
   scroll-behavior: smooth;
 }
 
-ul li {
-  text-decoration: none;
-  list-style: none;
+body {
+  background-color: #f4f5f7;
 }
 
 .bg-primary {
@@ -30,6 +29,53 @@ ul li {
 
 .text-tertiary {
   color: #7f8cff !important;
+}
+
+.tags {
+  color: #6b778c;
+}
+
+#home-section {
+  border-bottom-left-radius: calc(120 / 16) rem;
+}
+
+#info-section {
+  border-radius: 1.5rem;
+}
+
+.project-desc {
+  color: #344563;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.badge {
+  background-color: #ebebff !important;
+}
+
+.badge-text {
+  color: #6070ff;
+}
+
+.btn {
+  color: #396df2;
+  line-height: 24px !important;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  background-color: #4053fc !important;
+}
+
+.btn-info {
+  background-color: #fff !important;
+  border-color: #396df2 !important;
+}
+
+.mt-lg-9 {
+  margin-top: 8.875rem;
 }
 
 @media only screen and (min-width: 768px) {
