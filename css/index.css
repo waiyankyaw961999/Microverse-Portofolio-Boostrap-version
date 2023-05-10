@@ -11,7 +11,6 @@ body {
   background-color: #f4f5f7;
 }
 
-
 .bg-primary {
   background-color: #091e42 !important;
 }
@@ -33,11 +32,11 @@ body {
 }
 
 .tags {
-  color: #6B778C;
+  color: #6b778c;
 }
 
 #home-section {
-  border-bottom-left-radius: calc(120 / 16)rem;
+  border-bottom-left-radius: calc(120 / 16) rem;
 }
 
 #info-section {
@@ -45,33 +44,34 @@ body {
 }
 
 .project-desc {
-  color:#344563;
+  color: #344563;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 }
 
 .badge {
-  background-color: #EBEBFF !important;
+  background-color: #ebebff !important;
 }
 
 .badge-text {
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .btn {
-  color: #396DF2;
+  color: #396df2;
   line-height: 24px !important;
 }
 
-.btn:hover, .btn:focus {
-  color: #FFF;
+.btn:hover,
+.btn:focus {
+  color: #fff;
   background-color: #4053fc !important;
 }
 
 .btn-info {
-  background-color: #FFF !important;
-  border-color: #396DF2 !important;
+  background-color: #fff !important;
+  border-color: #396df2 !important;
 }
 
 .mt-lg-9 {
