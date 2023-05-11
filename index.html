@@ -184,6 +184,141 @@
         <img src="/assets/images/portfolio_4.png" alt="portfolio" />
       </div>
     </section>
+    <section
+      id="about-section"
+      class="vh-100 bg-white d-flex gap-1 mt-lg-9 justify-content-center"
+    >
+      <img src="assets/images/about bg.png" alt="about-background" />
+      <div class="d-flex flex-column gap-2 w-50 la mt-4">
+        <h1 class="text-primary fw-bold lh-base">About Myself</h1>
+        <p class="text-primary h-auto">
+          Hello I’m a software developer! I can help you build a product ,
+          feature or website. Look through some of my work and experience! If
+          you like what you see and have a project you need coded, don’t
+          hesitate to contact me.
+        </p>
+        <span class="fs-6 text-secondary text-tertiary">LET'S CONNECT</span>
+        <div class="mt-2">
+          <ul class="d-flex p-0 gap-3">
+            <li class="list-unstyled">
+              <a><img src="assets/icons/github.svg" alt="twitter-icon" /></a>
+            </li>
+            <li class="list-unstyled">
+              <a><img src="assets/icons/linkedin.svg" alt="twitter-icon" /></a>
+            </li>
+            <li class="list-unstyled">
+              <a><img src="assets/icons/angellist.svg" alt="twitter-icon" /></a>
+            </li>
+            <li class="list-unstyled">
+              <a><img src="assets/icons/twitter.svg" alt="twitter-icon" /></a>
+            </li>
+            <li class="list-unstyled">
+              <a><img src="assets/icons/medium.svg" alt="twitter-icon" /></a>
+            </li>
+          </ul>
+          <button class="btn btn-info w-25 mt-4">See Project</button>
+        </div>
+      </div>
+      <ul class="d-flex flex-column gap-3 w-50 mt-4">
+        <div class="d-flex">
+          <h4 class="p-2 flex-grow-1">Language</h4>
+          <button class="btn dropdown-toggle"></button>
+        </div>
+        <div
+          class="list-group list-group-horizontal gap-2 mt-3 p-2 flex-shrink-1"
+        >
+          <img src="/assets/icons/Ellipse 1.png" /><span>javaScript</span>
+          <img src="/assets/icons/Ellipse 2.png" /><span>HTML</span>
+          <img src="/assets/icons/Ellipse 3.png" /><span>CSS</span>
+        </div>
+        <div class="d-flex">
+          <h4 class="p-2 flex-grow-1">Frameworks</h4>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-caret-down"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+            />
+          </svg>
+        </div>
+        <div class="d-flex">
+          <h4 class="p-2 flex-grow-1">Skills</h4>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-caret-down"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"
+            />
+          </svg>
+        </div>
+      </ul>
+    </section>
+    <section
+      id="contact-form"
+      class="vh-100 d-flex gap-2 mt-lg-9 bg-primary justify-content-center"
+    >
+      <img
+        class="position-absolute h-100"
+        src="assets/images/contact-desktop-bg.png"
+        alt="about-background"
+      />
+      <div class="d-flex flex-column gap-2 w-25 mt-4">
+        <h2 class="text-white fw-bold fw-bold lh-base">Contact me</h2>
+        <p class="text-white h-auto">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it!
+        </p>
+        <form
+          class="cform-control"
+          action="https://formspree.io/f/xnqygnpz"
+          method="post"
+        >
+          <div class="mb-1">
+            <input
+              class="form-control"
+              name="name"
+              id="name"
+              type="text"
+              placeholder="Lorem Ipsum"
+              maxlength="30"
+              required
+            />
+            <input
+              class="form-control"
+              name="Email"
+              id="email"
+              type="email"
+              placeholder="loremipsum@gmail.com"
+              required
+            />
+          </div>
+          <div class="mb-2">
+            <textarea
+              class="form-control c-"
+              name="message"
+              id="msg"
+              type="text"
+              placeholder="Write your message here..."
+              maxlength="500"
+              required
+              rows="6"
+            ></textarea>
+          </div>
+          <button class="btn btn-info w-50 mt-4">Get in touch</button>
+        </form>
+      </div>
+    </section>
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
